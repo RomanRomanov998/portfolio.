@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header id="header">
+        <div class="card">
+            <img src="images/profile.jpg" alt="profile-photo" class="avatar" />        
+
+            <div class="card-content">
+                <h1>Roman Romanov</h1>
+                <p>With housekeeping experience and strong teamwork skills, I`ve discovered a passion for Frontend Development and continue to grow in this field</p>
+
+                <h3>Find me online</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/klggfdty?igsh=aHBjNmNldHJ4ZHRt" target="_blank">📸 Instagram</a></li>
+                    <li><a href="https://github.com/RomanRomanov998" target="_blank">🐙 GitHub</a></li>
+                    <li><a href="mailto:romanovramik@gmail.com">📧 Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="card bg-green">
+            <h2>About Me</h2>
+            <ol>
+                <li>Staying active through sports</li>
+                <li>Exploring Frontend Development</li>
+                <li>Enjoying meaningful time with family</li>
+                <li>Uncovering new strengths and passions</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="card bg-yellow">
+            <h2>My Growth Timeline</h2>
+            <table class="card-table">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Skills Gained</th>
+                        <th>Period</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend Learning</td>
+                        <td>HTML, CSS</td>
+                        <td>2025 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Housekeeping Staff</td>
+                        <td>Teamwork, Time Management</td>
+                        <td>2024-2025</td>
+                    </tr>
+                    <tr>
+                        <td>Crew Member-McDonald`s</td>
+                        <td>Customer Service, Multitasking</td>
+                        <td>2022-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card bg-red">
+            <h2>Let`s Connect</h2>
+            <form action="https://formspree.io/f/xzzvolda" method="post" class="card-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Send Message</label>
+                <textarea name="message" id="message" placeholder="Write your message here..."></textarea>
+
+                <button type="submit" class="btn-submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>

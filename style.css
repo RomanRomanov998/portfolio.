@@ -1,0 +1,178 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.card-content {
+    margin-left: 40px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    box-shadow: 2px 4px 14px rgba(0,0,0,0.1);
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+
+.card-content :active {
+    color: blue;
+}
+
+.card-content a:visited {
+    color: gray;
+}
+
+.card-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#about li {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-table {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#skills h2 {
+    padding-left: 25px;
+}
+
+.card-table th {
+    padding-bottom: 10px;
+}
+
+.card-table td {
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.card-table td:nth-child(1) {
+    background-color: #b9ad68;
+}
+
+.card-table td:nth-child(3) {
+    background-color: #b5aa71;
+}
+
+.bg-green {
+    background-color: #69b573;
+    padding-right: 29vh;
+} 
+
+.bg-red {
+    background-color: #966867;
+    padding-bottom: 30px;
+}
+
+.bg-yellow {
+    background-color: #bfb57b;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 500px;
+    width: 100%;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    max-width: 100%;
+    background-color: rgb(247, 244, 240);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#contact textarea  {
+    resize: vertical;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    align-self: center;
+    background-color: #000;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+}
